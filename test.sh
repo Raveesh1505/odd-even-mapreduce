@@ -1,0 +1,1 @@
+cat input_OE.txt | python3 src/mapper.py | sort -k1,1 | python3 src/reducer.py
